@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste</title>
+        <link rel="icon" href="./img/Geral/Logo_Seven.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        
+    </head>
+
+    <body>
+        <button id="btn">Gerar</button>
+        <button id="ms">Mostrar | Esconder</button>
+        <br>
+        <br>
+        <div class="all">
+
+            <div class="texte" id="Card_Principal">
+                <h1>Olá mundo</h1>
+                <p>Esse é um texto de teste</p>
+                <button class='fechar'>Fechar</button>
+            </div>
+
+            <div id="Tx_Gerado"></div>
+        </div>
+
+        <div>
+            <h2>Gerar</h2>
+            <p>Ao clicar no botão "GERAR" a função irá incerir o  HTML do card pelo JS.</p>
+            <p>O Card Gerado é preto</p>
+        </div>
+        <div>
+            <h2>Mostrar | Esconder</h2>
+            <p>Ao clicar no botão a função irá mudar o display "BLOCK" para "NONE", escondendo ou mostrando o card.</p>
+            <p>O Card é o vermelho.</p>
+        </div>
+        <div>
+            <h2>Erros</h2>
+            <ol>
+                <li>O HTML gerado pelo innerHtml não esta atribuindo a função de mudar o display, a intenção era que escondesse e mostrasse todos os cards.</li>
+                <li>O Botão Gerar era para inserir os cards enquano fosse clicado, mas só gera um card</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Eu imagino que o JS esteja sendo carregado na pagina, mas o HTML gerado pelo Inner como é gerado após o carregamento da pagina não tem JS carregado nele.</h3>
+        </div>
+        <div>
+            <h5>A intenção com isso tudo era gerar um card pelo Inner, e dentro do card tivesse um botão já com uma função atribuida para ao clicar ser atribuido a função ".remove" desse card. Excluindo o card gerado e não apenas mudando o display.</h5>
+            <h5>Mas mesmo que não fosse paara excluir e sim para mudar o Display nenhum botão carregado pelo JS dentro desse card funciona.</h5>
+        </div>
+        <br>
+        <br>
+        <button id="btn2">Gerar</button>
+        <br>
+        <br>
+        <div class="Tx_Ger"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>

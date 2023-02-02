@@ -1,0 +1,16 @@
+.all{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texte, .card2{
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+#Card_Principal{
+    background-color: red;
+}
